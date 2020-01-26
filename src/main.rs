@@ -139,7 +139,7 @@ async fn main() {
         );
 
     warp::serve(form.or(reply))
-        .run(([127, 0, 0, 1], 10038))
+        .run(([0, 0, 0, 0], 10038))
         .await;
 }
 
