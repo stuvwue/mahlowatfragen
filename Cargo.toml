@@ -1,5 +1,5 @@
 [package]
-name = "wahlomatfragen"
+name = "mahlowatfragen"
 version = "0.1.0"
 authors = ["Michael Kreuzer <m-git@kreuzers.org>"]
 edition = "2018"
