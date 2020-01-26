@@ -1,0 +1,743 @@
+{
+  "theses": {
+    "12": {
+      "l": "Die Linie 10 soll mindestens bis 15 min nach Bibliotheksschluss befahren werden.",
+      "s": "Linie 10",
+      "x": "Die Bibliothek ist Werktags bis 24:00 geöffnet."
+    },
+    "4": {
+      "l": "Würzburg braucht mehr Parkplätze.",
+      "s": "Verkehrskonzept II: mehr Parkplätze",
+      "x": ""
+    },
+    "1": {
+      "l": "Eine Wahlliste für den Stadtrat sollte nur zugelassen werden, wenn sie ein gleichmäßiges Geschlechterverhältnis aufweist.",
+      "s": "Geschlechterquotierung für Wahllisten",
+      "x": "Es geht hier um die grundsätzliche Einstellung, nicht um die jetzt erfolgenden Wahlen!"
+    },
+    "7": {
+      "l": "Die Posthalle mit ihrem kulturellen Angebot muss bestehen bleiben.",
+      "s": "Posthalle erhalten",
+      "x": ""
+    },
+    "0": {
+      "l": "Der/Die Bürgermeister*in sollte sich dagegen einsetzen, den Klimanotstand für Würzburg auszurufen.",
+      "s": "kein Klimanotstand",
+      "x": "Hier wird Klimanotstand als die Festlegung verstanden, dass der Stadtrat bei allen Entscheidungen die Auswirkungen auf den Ausstoß von klimawirksamen Substanzen berücksichtigen muss.."
+    },
+    "2": {
+      "l": "Die Würzburger Innenstadt soll weitestgehend mit dem PKW befahrbar sein.",
+      "s": "Keine autofreie Innenstadt",
+      "x": ""
+    },
+    "11": {
+      "l": "Für die Einführung der Straßenbahn zum Hubland sollen auch Enteignungen in Kauf genommen werden.",
+      "s": "Straßenbahnlinie Hubland",
+      "x": ""
+    },
+    "18": {
+      "l": "Es ist nicht notwendig, bestimmte Wohnungen ausschließlich für Studierende anzubieten.",
+      "s": "Wohnraum nicht beschränken",
+      "x": "Eine Ausnahme sind selbstverständlich die Wohnheime des Studentenwerks."
+    },
+    "6": {
+      "l": "Städtische Gebäude sollten soweit wie möglich mit Solarpaneelen ausgestattet werden.",
+      "s": "Photovoltaik",
+      "x": ""
+    },
+    "19": {
+      "l": "Die Studierenden machen etwa ein Viertel der Würzburger Bevölkerung aus, sind aber in kommunalpolitischen Entscheidungen nicht ausreichend eingebunden.",
+      "s": "Studis in der Politik einbinden",
+      "x": ""
+    },
+    "9": {
+      "l": "Die Radwegesituation in Würzburg ist miserabel und muss verbessert werden.",
+      "s": "Radwege verbessern",
+      "x": ""
+    },
+    "13": {
+      "l": "Es gibt ausreichend Nachtbusse in Würzburg.",
+      "s": "Nachtbusse ausreichend",
+      "x": "Damit sind die 90er-Linien gemeint."
+    },
+    "8": {
+      "l": "Würzburg braucht kein freies Kulturzentrum.",
+      "s": "kein freies Kulturzentrum",
+      "x": ""
+    },
+    "15": {
+      "l": "Das Würzburger Leitungswasser ist gesund und es besteht kein Handlungsbedarf.",
+      "s": "Leitungswasser ",
+      "x": ""
+    },
+    "5": {
+      "l": "Ein Park-and-Ride-Konzept für Würzburg wäre nicht zielführend.",
+      "s": "Verkehrskonzept III: kein P&R",
+      "x": ""
+    },
+    "17": {
+      "l": "Eine Deckelung der Mietpreise ist nicht sinnvoll.",
+      "s": "Mietpreis deckeln",
+      "x": ""
+    },
+    "10": {
+      "l": "Das Semesterticket Mainfrankentheater soll zu einem umfänglichen Kulturticket ausgebaut werden.",
+      "s": "Kulturticket",
+      "x": ""
+    },
+    "20": {
+      "l": "Die Stadt Würzburg soll den Handel mit Hanfprodukten stärker beschränken.",
+      "s": "Cannabis beschränken",
+      "x": ""
+    },
+    "14": {
+      "l": "Die katholische Kirche sollte weiterhin Mitspracherecht bei der Besetzung vonbestimmten, nicht theologischen Lehrstühlen besitzen.",
+      "s": "Konkordatslehrstühle",
+      "x": "An der Uni Wü gibt es drei Lehrstühle, bei deren Besetzung der Bischof Vetos einlegen darf."
+    },
+    "16": {
+      "l": "Es sollen mehr Wohnungen gebaut werden.",
+      "s": "Wohnungen bauen",
+      "x": ""
+    },
+    "3": {
+      "l": "Bus- und Radverkehr sollten keine Bevorzugung gegenüber PKW im Straßenverkehr erhalten.",
+      "s": "Verkehrskonzept I: PKW vor Bus und Rad",
+      "x": ""
+    }
+  },
+  "lists": {
+    "4": {
+      "name": "Sebastian Roth, DIE LINKE",
+      "name_x": "Roth, LINKE"
+    },
+    "6": {
+      "name": "Dagmar Dewald, ÖDP",
+      "name_x": "Dewald, ÖDP"
+    },
+    "2": {
+      "name": "Mark Benecke - die PARTEI",
+      "name_x": "Benecke, PARTEI"
+    },
+    "1": {
+      "name": "Christian Schuchardt - CSU",
+      "name_x": "Schuchardt, CSU"
+    },
+    "3": {
+      "name": "Kerstin Westphal, SPD",
+      "name_x": "Westphal, SPD"
+    },
+    "0": {
+      "name": "Martin Heilig - Bündnis90/die Grünen",
+      "name_x": "Heilig, Grüne"
+    },
+    "5": {
+      "name": "Volker Omert, Freie Wähler",
+      "name_x": "Omert, FW"
+    }
+  },
+  "answers": {
+    "2": {
+      "5": {
+        "selection": "d",
+        "statement": ""
+      },
+      "8": {
+        "selection": "d",
+        "statement": ""
+      },
+      "13": {
+        "selection": "d",
+        "statement": ""
+      },
+      "11": {
+        "selection": "d",
+        "statement": ""
+      },
+      "3": {
+        "selection": "d",
+        "statement": ""
+      },
+      "19": {
+        "selection": "d",
+        "statement": ""
+      },
+      "2": {
+        "selection": "d",
+        "statement": ""
+      },
+      "10": {
+        "selection": "d",
+        "statement": ""
+      },
+      "18": {
+        "selection": "d",
+        "statement": ""
+      },
+      "9": {
+        "selection": "d",
+        "statement": ""
+      },
+      "20": {
+        "selection": "d",
+        "statement": ""
+      },
+      "1": {
+        "selection": "d",
+        "statement": ""
+      },
+      "16": {
+        "selection": "d",
+        "statement": ""
+      },
+      "12": {
+        "selection": "d",
+        "statement": ""
+      },
+      "6": {
+        "selection": "d",
+        "statement": ""
+      },
+      "15": {
+        "selection": "d",
+        "statement": ""
+      },
+      "17": {
+        "selection": "d",
+        "statement": ""
+      },
+      "7": {
+        "selection": "d",
+        "statement": ""
+      },
+      "4": {
+        "selection": "d",
+        "statement": ""
+      },
+      "0": {
+        "selection": "d",
+        "statement": ""
+      },
+      "14": {
+        "selection": "d",
+        "statement": ""
+      }
+    },
+    "6": {
+      "18": {
+        "selection": "d",
+        "statement": ""
+      },
+      "10": {
+        "selection": "d",
+        "statement": ""
+      },
+      "16": {
+        "selection": "d",
+        "statement": ""
+      },
+      "5": {
+        "selection": "d",
+        "statement": ""
+      },
+      "11": {
+        "selection": "d",
+        "statement": ""
+      },
+      "20": {
+        "selection": "d",
+        "statement": ""
+      },
+      "17": {
+        "selection": "d",
+        "statement": ""
+      },
+      "2": {
+        "selection": "d",
+        "statement": ""
+      },
+      "14": {
+        "selection": "d",
+        "statement": ""
+      },
+      "3": {
+        "selection": "d",
+        "statement": ""
+      },
+      "13": {
+        "selection": "d",
+        "statement": ""
+      },
+      "8": {
+        "selection": "d",
+        "statement": ""
+      },
+      "9": {
+        "selection": "d",
+        "statement": ""
+      },
+      "6": {
+        "selection": "d",
+        "statement": ""
+      },
+      "19": {
+        "selection": "d",
+        "statement": ""
+      },
+      "7": {
+        "selection": "d",
+        "statement": ""
+      },
+      "1": {
+        "selection": "d",
+        "statement": ""
+      },
+      "15": {
+        "selection": "d",
+        "statement": ""
+      },
+      "12": {
+        "selection": "d",
+        "statement": ""
+      },
+      "4": {
+        "selection": "d",
+        "statement": ""
+      },
+      "0": {
+        "selection": "d",
+        "statement": ""
+      }
+    },
+    "1": {
+      "0": {
+        "selection": "d",
+        "statement": ""
+      },
+      "2": {
+        "selection": "d",
+        "statement": ""
+      },
+      "3": {
+        "selection": "d",
+        "statement": ""
+      },
+      "11": {
+        "selection": "d",
+        "statement": ""
+      },
+      "16": {
+        "selection": "d",
+        "statement": ""
+      },
+      "9": {
+        "selection": "d",
+        "statement": ""
+      },
+      "10": {
+        "selection": "d",
+        "statement": ""
+      },
+      "15": {
+        "selection": "d",
+        "statement": ""
+      },
+      "20": {
+        "selection": "d",
+        "statement": ""
+      },
+      "17": {
+        "selection": "d",
+        "statement": ""
+      },
+      "8": {
+        "selection": "d",
+        "statement": ""
+      },
+      "7": {
+        "selection": "d",
+        "statement": ""
+      },
+      "13": {
+        "selection": "d",
+        "statement": ""
+      },
+      "6": {
+        "selection": "d",
+        "statement": ""
+      },
+      "12": {
+        "selection": "d",
+        "statement": ""
+      },
+      "5": {
+        "selection": "d",
+        "statement": ""
+      },
+      "18": {
+        "selection": "d",
+        "statement": ""
+      },
+      "4": {
+        "selection": "d",
+        "statement": ""
+      },
+      "1": {
+        "selection": "d",
+        "statement": ""
+      },
+      "14": {
+        "selection": "d",
+        "statement": ""
+      },
+      "19": {
+        "selection": "d",
+        "statement": ""
+      }
+    },
+    "0": {
+      "12": {
+        "selection": "d",
+        "statement": ""
+      },
+      "11": {
+        "selection": "d",
+        "statement": ""
+      },
+      "4": {
+        "selection": "d",
+        "statement": ""
+      },
+      "20": {
+        "selection": "d",
+        "statement": ""
+      },
+      "3": {
+        "selection": "d",
+        "statement": ""
+      },
+      "2": {
+        "selection": "d",
+        "statement": ""
+      },
+      "17": {
+        "selection": "d",
+        "statement": ""
+      },
+      "8": {
+        "selection": "d",
+        "statement": ""
+      },
+      "10": {
+        "selection": "d",
+        "statement": ""
+      },
+      "0": {
+        "selection": "d",
+        "statement": ""
+      },
+      "15": {
+        "selection": "d",
+        "statement": ""
+      },
+      "1": {
+        "selection": "d",
+        "statement": ""
+      },
+      "14": {
+        "selection": "d",
+        "statement": ""
+      },
+      "18": {
+        "selection": "d",
+        "statement": ""
+      },
+      "6": {
+        "selection": "d",
+        "statement": ""
+      },
+      "7": {
+        "selection": "d",
+        "statement": ""
+      },
+      "5": {
+        "selection": "d",
+        "statement": ""
+      },
+      "19": {
+        "selection": "d",
+        "statement": ""
+      },
+      "13": {
+        "selection": "d",
+        "statement": ""
+      },
+      "9": {
+        "selection": "d",
+        "statement": ""
+      },
+      "16": {
+        "selection": "d",
+        "statement": ""
+      }
+    },
+    "4": {
+      "20": {
+        "selection": "d",
+        "statement": ""
+      },
+      "12": {
+        "selection": "d",
+        "statement": ""
+      },
+      "8": {
+        "selection": "d",
+        "statement": ""
+      },
+      "7": {
+        "selection": "d",
+        "statement": ""
+      },
+      "11": {
+        "selection": "d",
+        "statement": ""
+      },
+      "2": {
+        "selection": "d",
+        "statement": ""
+      },
+      "4": {
+        "selection": "d",
+        "statement": ""
+      },
+      "0": {
+        "selection": "d",
+        "statement": ""
+      },
+      "10": {
+        "selection": "d",
+        "statement": ""
+      },
+      "1": {
+        "selection": "d",
+        "statement": ""
+      },
+      "3": {
+        "selection": "d",
+        "statement": ""
+      },
+      "18": {
+        "selection": "d",
+        "statement": ""
+      },
+      "19": {
+        "selection": "d",
+        "statement": ""
+      },
+      "5": {
+        "selection": "d",
+        "statement": ""
+      },
+      "16": {
+        "selection": "d",
+        "statement": ""
+      },
+      "17": {
+        "selection": "d",
+        "statement": ""
+      },
+      "9": {
+        "selection": "d",
+        "statement": ""
+      },
+      "14": {
+        "selection": "d",
+        "statement": ""
+      },
+      "15": {
+        "selection": "d",
+        "statement": ""
+      },
+      "13": {
+        "selection": "d",
+        "statement": ""
+      },
+      "6": {
+        "selection": "d",
+        "statement": ""
+      }
+    },
+    "5": {
+      "8": {
+        "selection": "d",
+        "statement": ""
+      },
+      "11": {
+        "selection": "d",
+        "statement": ""
+      },
+      "7": {
+        "selection": "d",
+        "statement": ""
+      },
+      "3": {
+        "selection": "d",
+        "statement": ""
+      },
+      "20": {
+        "selection": "d",
+        "statement": ""
+      },
+      "18": {
+        "selection": "d",
+        "statement": ""
+      },
+      "17": {
+        "selection": "d",
+        "statement": ""
+      },
+      "9": {
+        "selection": "d",
+        "statement": ""
+      },
+      "10": {
+        "selection": "d",
+        "statement": ""
+      },
+      "15": {
+        "selection": "d",
+        "statement": ""
+      },
+      "0": {
+        "selection": "d",
+        "statement": ""
+      },
+      "19": {
+        "selection": "d",
+        "statement": ""
+      },
+      "12": {
+        "selection": "d",
+        "statement": ""
+      },
+      "4": {
+        "selection": "d",
+        "statement": ""
+      },
+      "2": {
+        "selection": "d",
+        "statement": ""
+      },
+      "5": {
+        "selection": "d",
+        "statement": ""
+      },
+      "1": {
+        "selection": "d",
+        "statement": ""
+      },
+      "6": {
+        "selection": "d",
+        "statement": ""
+      },
+      "16": {
+        "selection": "d",
+        "statement": ""
+      },
+      "13": {
+        "selection": "d",
+        "statement": ""
+      },
+      "14": {
+        "selection": "d",
+        "statement": ""
+      }
+    },
+    "3": {
+      "1": {
+        "selection": "d",
+        "statement": ""
+      },
+      "8": {
+        "selection": "d",
+        "statement": ""
+      },
+      "11": {
+        "selection": "d",
+        "statement": ""
+      },
+      "16": {
+        "selection": "d",
+        "statement": ""
+      },
+      "0": {
+        "selection": "d",
+        "statement": ""
+      },
+      "18": {
+        "selection": "d",
+        "statement": ""
+      },
+      "10": {
+        "selection": "d",
+        "statement": ""
+      },
+      "5": {
+        "selection": "d",
+        "statement": ""
+      },
+      "3": {
+        "selection": "d",
+        "statement": ""
+      },
+      "4": {
+        "selection": "d",
+        "statement": ""
+      },
+      "14": {
+        "selection": "d",
+        "statement": ""
+      },
+      "6": {
+        "selection": "d",
+        "statement": ""
+      },
+      "15": {
+        "selection": "d",
+        "statement": ""
+      },
+      "13": {
+        "selection": "d",
+        "statement": ""
+      },
+      "19": {
+        "selection": "d",
+        "statement": ""
+      },
+      "12": {
+        "selection": "d",
+        "statement": ""
+      },
+      "20": {
+        "selection": "d",
+        "statement": ""
+      },
+      "7": {
+        "selection": "d",
+        "statement": ""
+      },
+      "17": {
+        "selection": "d",
+        "statement": ""
+      },
+      "2": {
+        "selection": "d",
+        "statement": ""
+      },
+      "9": {
+        "selection": "d",
+        "statement": ""
+      }
+    }
+  }
+}
