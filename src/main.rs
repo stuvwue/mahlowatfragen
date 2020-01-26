@@ -60,7 +60,7 @@ pub fn as_form(id: u32, thesis: &Thesis, answer: &Answer) -> String {
   <input type="radio" name="{id}selection" value="d" {skip}> Überspringen<br>
   <br>
   Begründung:<br>
-  <textarea rows="5" cols="100" name="{id}statement" value="{statement}"></textarea>
+  <textarea rows="5" cols="100" name="{id}statement">{statement}</textarea>
   </fieldset>"#,
         thesis = thesis.l.replace("\"", "&quot;"),
         title = thesis.s.replace("\"", "&quot;"),
