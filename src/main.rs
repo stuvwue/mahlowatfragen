@@ -1,5 +1,5 @@
 use std::error::Error;
-use warp::{self, Filter};
+use warp::{self, http::StatusCode, path, Filter, Rejection, Reply};
 
 use serde::Deserialize;
 use serde::Serialize;
@@ -8,6 +8,18 @@ use std::fs::File;
 use std::io::BufReader;
 use std::io::BufWriter;
 use std::sync::{Arc, Mutex};
+
+const HTML_SAVED: &str = r#"<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Antworten gespeichert</title>
+  </head>
+  <body>
+    Ihre Antworten wurden gespeichert.<br>
+    <a href="">Zurück zum Formular</a>
+  </body>
+</html>"#;
 
 #[derive(Serialize, Deserialize, Clone)]
 pub struct Thesis {
@@ -54,6 +66,7 @@ pub fn as_form(id: u32, thesis: &Thesis, answer: &Answer) -> String {
         <legend>Frage {id}</legend>
         <h3> {title} </h3>
     {thesis}<br><br>
+    <i>{hint}</i>
   <input type="radio" name="{id}selection" value="a" {approve}> Zustimmung
   <input type="radio" name="{id}selection" value="b" {neutral}> Neutral
   <input type="radio" name="{id}selection" value="c" {oppose}> Ablehnung
@@ -64,6 +77,11 @@ pub fn as_form(id: u32, thesis: &Thesis, answer: &Answer) -> String {
   </fieldset>"#,
         thesis = thesis.l.replace("\"", "&quot;"),
         title = thesis.s.replace("\"", "&quot;"),
+        hint = if thesis.x != "" {
+            format!("Hinweis: {}<br><br>", thesis.x.replace("\"", "&quot;"))
+        } else {
+            "".to_string()
+        },
         id = id,
         approve = if answer.selection == "a" {
             "checked"
@@ -98,47 +116,85 @@ async fn main() {
         serde_json::from_reader(reader).unwrap()
     };
     let data = Arc::new(Mutex::new(data_raw));
+    let token_raw: HashMap<String, String> = {
+        let file = File::open("tokens.json").unwrap();
+        let reader = BufReader::new(file);
+        serde_json::from_reader(reader).unwrap()
+    };
+    let tokens = Arc::new(token_raw);
 
     let with_data = move || {
         let data_clone = data.clone();
         warp::any().map(move || data_clone.clone())
     };
+    let with_tokens = move || {
+        let tokens_clone = tokens.clone();
+        warp::any().map(move || tokens_clone.clone())
+    };
 
-    let form = warp::get().and(warp::path::param()).and(with_data()).map(
-        move |list_id: String, data: DataM| match read_and_format_forms(&list_id, data) {
-            Ok(forms) => warp::reply::html(forms),
-            Err(err) => warp::reply::html(format!("{}", err)),
-        },
-    );
+    let extract_token = |name: String, token: String, token_map: TokenMap| {
+        let result = match token_map.get(&(name + &token)) {
+            Some(id) => Ok(id.to_string()),
+            None => Err(warp::reject()),
+        };
+        async { result }
+    };
+
+    type TokenMap = Arc<HashMap<String, String>>;
+
+    let form = warp::get()
+        .and(path!(String / String))
+        .and(with_tokens())
+        .and_then(extract_token)
+        .and(with_data())
+        .and_then(move |list_id: String, data: DataM| {
+            let result = match read_and_format_forms(&list_id, data) {
+                Ok(forms) => Ok(warp::reply::html(forms)),
+                Err(_err) => Err(warp::reject()),
+            };
+            async { result }
+        });
 
     let reply = warp::post()
-        .and(warp::path::param())
-        .and(warp::path("send"))
+        .and(path!(String / String))
+        //.unify()
+        .and(with_tokens())
+        .and_then(extract_token)
+        .and(warp::path::end())
         .and(warp::body::content_length_limit(1024 * 32))
         .and(warp::body::form())
         .and(with_data())
-        .map(
-            |list_id: String, form: HashMap<String, String>, data_m: DataM| {
-                let mut answers: HashMap<String, Answer> = HashMap::new();
-                for (key, value) in form.into_iter() {
-                    let (id, field) = key.split_at(key.find('s').unwrap());
-                    let mut answer = answers.entry(id.to_string()).or_default();
-                    if field == "selection" {
-                        (*answer).selection = value.to_string();
-                    } else if field == "statement" {
-                        (*answer).statement = value.to_string();
-                    }
+        .map(|list_id, form: HashMap<String, String>, data_m: DataM| {
+            let mut answers: HashMap<String, Answer> = HashMap::new();
+            for (key, value) in form.into_iter() {
+                let (id, field) = key.split_at(key.find('s').unwrap());
+                let mut answer = answers.entry(id.to_string()).or_default();
+                if field == "selection" {
+                    (*answer).selection = value.to_string();
+                } else if field == "statement" {
+                    (*answer).statement = value.to_string();
                 }
-                let mut data = data_m.lock().expect("failed to unlock mutex");
-                data.answers.insert(list_id, answers);
-                let file = File::create("data.json").unwrap();
-                let writer = BufWriter::new(file);
-                serde_json::to_writer_pretty(writer, &*data).unwrap();
-                Ok("answers updated")
-            },
-        );
+            }
+            let mut data = data_m.lock().expect("failed to unlock mutex");
+            data.answers.insert(list_id, answers);
+            let file = File::create("data.json").unwrap();
+            let writer = BufWriter::new(file);
+            serde_json::to_writer_pretty(writer, &*data).unwrap();
+            Ok(warp::reply::html(HTML_SAVED))
+        });
 
-    warp::serve(form.or(reply))
+    async fn handle_rejection(err: Rejection) -> Result<impl Reply, Rejection> {
+        if err.is_not_found() {
+            Ok(warp::reply::with_status(
+                "Kandidat nicht gefunden",
+                StatusCode::NOT_FOUND,
+            ))
+        } else {
+            Err(err)
+        }
+    };
+
+    warp::serve(reply.or(form.recover(handle_rejection)))
         .run(([0, 0, 0, 0], 10038))
         .await;
 }
@@ -155,11 +211,20 @@ fn read_and_format_forms(list_id: &str, data_m: DataM) -> Result<String, Box<dyn
         .collect::<Result<Vec<u32>, _>>()?;
     theses.sort_unstable();
     Ok(format!(
-        r#"<form action="{list_id}/send" method="post">
-       {forms}<br>
-  <input type="submit" value="Änderungen speichern">
-       </form>"#,
-        list_id = list_id,
+        r#"<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Fragen zum Mahl-o-Wat</title>
+  </head>
+  <body>
+    <form method="post">
+      <input type="submit" value="Alle Eingaben speichern"><br>
+        {forms}<br>
+      <input type="submit" value="Alle Eingaben speichern"><br>
+    </form>
+  </body>
+</html>"#,
         forms = theses
             .iter()
             .map(|id| {
