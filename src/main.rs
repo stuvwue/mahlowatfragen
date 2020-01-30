@@ -63,7 +63,7 @@ impl Default for Answer {
 pub fn as_form(id: u32, thesis: &Thesis, answer: &Answer) -> String {
     format!(
         r#"<fieldset>
-        <legend>Frage {id}</legend>
+        <legend>Frage {id1}</legend>
         <h3> {title} </h3>
     {thesis}<br><br>
     <i>{hint}</i>
@@ -83,6 +83,7 @@ pub fn as_form(id: u32, thesis: &Thesis, answer: &Answer) -> String {
             "".to_string()
         },
         id = id,
+        id1 = id + 1,
         approve = if answer.selection == "a" {
             "checked"
         } else {
