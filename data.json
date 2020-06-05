@@ -1,134 +1,105 @@
 {
 	"theses": {
 		"0": {
-			"l": "Der*Die Bürgermeister*in soll sich dagegen einsetzen, den Klimanotstand für Würzburg auszurufen.",
-			"s": "Kein Klimanotstand",
-			"x": "Hier wird Klimanotstand als die Festlegung verstanden, dass der Stadtrat bei allen Entscheidungen die Auswirkungen auf den Ausstoß von klimawirksamen Substanzen berücksichtigen muss.."
+			"l": "Die Studierendenvertretung (StuV) soll sich weiterhin für ein solidarisches Kulturticket einsetzen, welches mehrere Kulturträger*innen einschließt, z.B. freie Theater, Museen oder Programmkinos.",
+			"s": "Kulturticket",
+			"x": "Bisher enthalten im “Semesterticket Mainfrankentheater” ist nur das Mainfrankentheater"
 		},
 		"1": {
-			"l": "Eine Wahlliste für den Stadtrat soll nur zugelassen werden, wenn sie ein gleichmäßiges Geschlechterverhältnis aufweist.",
-			"s": "Geschlechterquotierung für Wahllisten",
-			"x": "Es geht hier um die grundsätzliche Einstellung, nicht um die jetzt erfolgenden Wahlen!"
+			"l": "Die Uni Würzburg ist gut vorbereitet, um digitale Lehre auch in Zukunft zufriedenstellend umzusetzen.",
+			"s": "Digitale Lehre",
+			"x": ""
 		},
 		"2": {
-			"l": "Die Würzburger Innenstadt soll weitestgehend mit dem PKW befahrbar sein.",
-			"s": "Keine autofreie Innenstadt",
+			"l": "Elternunabhängiges BaFöG sollte für alle Studierende zugänglich gemacht werden.",
+			"s": "Elternunabhängiges BaFöG",
 			"x": ""
 		},
 		"3": {
-			"l": "Bus- und Radverkehr sollen keine Bevorzugung gegenüber PKW im Straßenverkehr erhalten.",
-			"s": "Verkehrskonzept I: PKW vor Bus und Rad",
+			"l": "Die Löhne für hilfswissenschaftliche Angestellte (HiWi) an der Uni soll auf ein Minimum von 12 € die Stunde angehoben werden.",
+			"s": "HiWi-Löhne",
 			"x": ""
 		},
 		"4": {
-			"l": "Würzburg braucht mehr Parkplätze.",
-			"s": "Verkehrskonzept II: mehr Parkplätze",
+			"l": "Die Uni Würzburg sollte ein Nachhaltigkeitskonzept verabschieden und dies als oberste Priorität bei allen Entscheidungen berücksichtigen.",
+			"s": "Nachhaltigkeitskonzept der Uni Wü",
 			"x": ""
 		},
 		"5": {
-			"l": "Ein Park-and-Ride-Konzept für Würzburg ist nicht zielführend.",
-			"s": "Verkehrskonzept III: kein P&R",
+			"l": "In den Studierendenwohnheimen gibt es genug Platz, sodass alle Bedürftigen bedient werden können. Das Anmeldeverfahren ist einfach und transparent.",
+			"s": "Wohnheimssituation",
 			"x": ""
 		},
 		"6": {
-			"l": "Städtische Gebäude sollen soweit wie möglich mit Solarpaneelen ausgestattet werden.",
-			"s": "Photovoltaik",
+			"l": "Die Uni Würzburg braucht mehr englischsprachige Angebote und feste Wohnheimsplätze für ausländische Studierende, um die internationale Attraktivität der Uni zu stärken.",
+			"s": "Internationalisierung",
 			"x": ""
 		},
 		"7": {
-			"l": "Die Posthalle mit ihrem kulturellen Angebot muss bestehen bleiben.",
-			"s": "Posthalle erhalten",
+			"l": "Das Angebot in den Mensen und Cafeterien ist zufriedenstellend.",
+			"s": "Mensaessen 1",
 			"x": ""
 		},
 		"8": {
-			"l": "Würzburg braucht kein freies Kulturzentrum.",
-			"s": "Kein freies Kulturzentrum",
+			"l": "Beim Mensaessen sollte der Schwerpunkt auf Nachhaltigkeit (Regionalität/Saisonalität/Produktionsart) liegen statt auf billiger Preise.",
+			"s": "Mensaessen 2",
 			"x": ""
 		},
 		"9": {
-			"l": "Die Radwegesituation in Würzburg ist miserabel und muss verbessert werden.",
-			"s": "Radwege verbessern",
-			"x": ""
+			"l": "Nach Möglichkeit sollten Unisex-Toiletten in Uni-Gebäuden eingerichtet werden.",
+			"s": "Unisex-Toiletten",
+			"x": "In Deutschland können sich Menschen seit Dezember 2018 im Personenstandsregister als “divers” eintragen lassen. Unisex-Toiletten sind für alle Menschen und es gibt sie z.B. schon lange in Zügen und Bussen."
 		},
 		"10": {
-			"l": "Das Semesterticket Mainfrankentheater soll zu einem umfänglichen Kulturticket ausgebaut werden.",
-			"s": "Kulturticket",
-			"x": ""
+			"l": "Für das Students’ House und den Campusgarten, welche in naher Zukunft abgerissen werden, soll eine mindestens gleichwertige Alternative geschaffen werden.",
+			"s": "Zukunft Students' House und Campusgarten",
+			"x": "https://www.uni-wuerzburg.de/stuv/neuigkeiten/news/die-stuv-im-video/ und https://www.uni-wuerzburg.de/stuv/referat-ak/oekologie/campusgarten/"
 		},
 		"11": {
-			"l": "Für die Einführung der Straßenbahn zum Hubland sollen auch Enteignungen in Kauf genommen werden.",
-			"s": "Straßenbahnlinie Hubland",
+			"l": "Für benachteiligte Studierende sollten mehr Unterstützungsangebote bereitgestellt werden.",
+			"s": "Unterstützungsangebote für benachteiligte Studierende",
 			"x": ""
 		},
 		"12": {
-			"l": "Die Linie 10 soll mindestens bis 15 min nach Bibliotheksschluss befahren werden.",
-			"s": "Linie 10",
-			"x": "Die Bibliothek ist Werktags bis 24:00 geöffnet."
+			"l": "Die StuV sollte mehr zur politischen Bildung der Studierenden beitragen.",
+			"s": "Politische Bildung durch StuV",
+			"x": ""
 		},
 		"13": {
-			"l": "Es gibt ausreichend Nachtbusse in Würzburg.",
-			"s": "Nachtbusse ausreichend",
-			"x": "Damit sind die 90er-Linien gemeint."
+			"l": "Die Studierendenvertretung sollte die Möglichkeit haben, über einen Teil des Semesterbeitrags frei verfügen zu können.",
+			"s": "Finanzhoheit der Studierendenvertretung",
+			"x": "In anderen Bundesländern zahlen die Studis einen Beitrag zwischen 5 und 10 Euro mittels des Semesterbeitrags an ihre Studierendenvertretung. Davon werden dann z.B. auch unabhängige Beratungsangebote für Studierende (u.a. Psychologische/Finanz-/Rechtsberatung) finanziert. In Bayern ist es hingegen so, dass die StuV wenig Geld vom Freistaat bekommt, dessen Ausgaberichtlinien streng vom "
 		},
 		"14": {
-			"l": "Die katholische Kirche soll weiterhin Mitspracherecht bei der Besetzung von bestimmten, nicht theologischen Lehrstühlen besitzen.",
-			"s": "Konkordatslehrstühle",
-			"x": "An der Uni Wü gibt es drei Lehrstühle, bei deren Besetzung der Bischof Vetos einlegen darf."
-		},
-		"15": {
-			"l": "Es sollen mehr Wohnungen gebaut werden.",
-			"s": "Wohnungen bauen",
-			"x": ""
-		},
-		"16": {
-			"l": "Eine Deckelung der Mietpreise ist nicht sinnvoll.",
-			"s": "Mietpreis deckeln",
-			"x": ""
-		},
-		"17": {
-			"l": "Es ist nicht notwendig, bestimmte Wohnungen ausschließlich für Studierende anzubieten.",
-			"s": "Wohnraum nicht beschränken",
-			"x": "Eine Ausnahme sind selbstverständlich die Wohnheime des Studentenwerks."
-		},
-		"18": {
-			"l": "Die Studierenden machen etwa ein Viertel der Würzburger Bevölkerung aus, sind aber in kommunalpolitischen Entscheidungen nicht ausreichend eingebunden.",
-			"s": "Studis in der Politik einbinden",
-			"x": ""
-		},
-		"19": {
-			"l": "Die Stadt Würzburg soll den Handel mit Hanfprodukten stärker beschränken.",
-			"s": "Cannabis beschränken",
-			"x": ""
+			"l": "Die Verfasste Studierendenschaft (VS) sollte in Bayern wieder eingeführt werden. ",
+			"s": "Verfasste Studierendenschaft",
+			"x": "https://lak-bayern.de/verfasste-studierendenschaft/"
 		}
 	},
 	"lists": {
 		"0": {
-			"name": "Martin Heilig - Bündnis90/die Grünen",
-			"name_x": "Heilig, Grüne"
+			"name": "Grüne Hochschulgruppe Würzburg",
+			"name_x": "GHG"
 		},
 		"1": {
-			"name": "Christian Schuchardt - CSU",
-			"name_x": "Schuchardt, CSU"
+			"name": "Die LISTE Würzburg",
+			"name_x": "dieLISTE"
 		},
 		"2": {
-			"name": "Mark Benecke - die PARTEI",
-			"name_x": "Benecke, PARTEI"
+			"name": "Jungsozialistinnen und Jungsozialisten Würzburg",
+			"name_x": "Jusos"
 		},
 		"3": {
-			"name": "Kerstin Westphal - SPD",
-			"name_x": "Westphal, SPD"
+			"name": "Ring Christlich-Demokratischer Studenten Würzburg",
+			"name_x": "RCDS"
 		},
 		"4": {
-			"name": "Sebastian Roth - DIE LINKE",
-			"name_x": "Roth, LINKE"
+			"name": "Volt Hochschulgruppe Würzburg",
+			"name_x": "Volt"
 		},
 		"5": {
-			"name": "Volker Omert - Freie Wähler",
-			"name_x": "Omert, FW"
-		},
-		"6": {
-			"name": "Dagmar Dewald - ÖDP",
-			"name_x": "Dewald, ÖDP"
+			"name": "Liberale Hochschulgruppe Würzburg",
+			"name_x": "LHG"
 		}
 	},
 	"answers": {
@@ -192,26 +163,6 @@
 			"14": {
 				"selection": "d",
 				"statement": ""
-			},
-			"15": {
-				"selection": "d",
-				"statement": ""
-			},
-			"16": {
-				"selection": "d",
-				"statement": ""
-			},
-			"17": {
-				"selection": "d",
-				"statement": ""
-			},
-			"18": {
-				"selection": "d",
-				"statement": ""
-			},
-			"19": {
-				"selection": "d",
-				"statement": ""
 			}
 		},
 		"1": {
@@ -272,26 +223,6 @@
 				"statement": ""
 			},
 			"14": {
-				"selection": "d",
-				"statement": ""
-			},
-			"15": {
-				"selection": "d",
-				"statement": ""
-			},
-			"16": {
-				"selection": "d",
-				"statement": ""
-			},
-			"17": {
-				"selection": "d",
-				"statement": ""
-			},
-			"18": {
-				"selection": "d",
-				"statement": ""
-			},
-			"19": {
 				"selection": "d",
 				"statement": ""
 			}
@@ -356,26 +287,6 @@
 			"14": {
 				"selection": "d",
 				"statement": ""
-			},
-			"15": {
-				"selection": "d",
-				"statement": ""
-			},
-			"16": {
-				"selection": "d",
-				"statement": ""
-			},
-			"17": {
-				"selection": "d",
-				"statement": ""
-			},
-			"18": {
-				"selection": "d",
-				"statement": ""
-			},
-			"19": {
-				"selection": "d",
-				"statement": ""
 			}
 		},
 		"3": {
@@ -436,26 +347,6 @@
 				"statement": ""
 			},
 			"14": {
-				"selection": "d",
-				"statement": ""
-			},
-			"15": {
-				"selection": "d",
-				"statement": ""
-			},
-			"16": {
-				"selection": "d",
-				"statement": ""
-			},
-			"17": {
-				"selection": "d",
-				"statement": ""
-			},
-			"18": {
-				"selection": "d",
-				"statement": ""
-			},
-			"19": {
 				"selection": "d",
 				"statement": ""
 			}
@@ -520,26 +411,6 @@
 			"14": {
 				"selection": "d",
 				"statement": ""
-			},
-			"15": {
-				"selection": "d",
-				"statement": ""
-			},
-			"16": {
-				"selection": "d",
-				"statement": ""
-			},
-			"17": {
-				"selection": "d",
-				"statement": ""
-			},
-			"18": {
-				"selection": "d",
-				"statement": ""
-			},
-			"19": {
-				"selection": "d",
-				"statement": ""
 			}
 		},
 		"5": {
@@ -600,108 +471,6 @@
 				"statement": ""
 			},
 			"14": {
-				"selection": "d",
-				"statement": ""
-			},
-			"15": {
-				"selection": "d",
-				"statement": ""
-			},
-			"16": {
-				"selection": "d",
-				"statement": ""
-			},
-			"17": {
-				"selection": "d",
-				"statement": ""
-			},
-			"18": {
-				"selection": "d",
-				"statement": ""
-			},
-			"19": {
-				"selection": "d",
-				"statement": ""
-			}
-		},
-		"6": {
-			"0": {
-				"selection": "d",
-				"statement": ""
-			},
-			"1": {
-				"selection": "d",
-				"statement": ""
-			},
-			"2": {
-				"selection": "d",
-				"statement": ""
-			},
-			"3": {
-				"selection": "d",
-				"statement": ""
-			},
-			"4": {
-				"selection": "d",
-				"statement": ""
-			},
-			"5": {
-				"selection": "d",
-				"statement": ""
-			},
-			"6": {
-				"selection": "d",
-				"statement": ""
-			},
-			"7": {
-				"selection": "d",
-				"statement": ""
-			},
-			"8": {
-				"selection": "d",
-				"statement": ""
-			},
-			"9": {
-				"selection": "d",
-				"statement": ""
-			},
-			"10": {
-				"selection": "d",
-				"statement": ""
-			},
-			"11": {
-				"selection": "d",
-				"statement": ""
-			},
-			"12": {
-				"selection": "d",
-				"statement": ""
-			},
-			"13": {
-				"selection": "d",
-				"statement": ""
-			},
-			"14": {
-				"selection": "d",
-				"statement": ""
-			},
-			"15": {
-				"selection": "d",
-				"statement": ""
-			},
-			"16": {
-				"selection": "d",
-				"statement": ""
-			},
-			"17": {
-				"selection": "d",
-				"statement": ""
-			},
-			"18": {
-				"selection": "d",
-				"statement": ""
-			},
-			"19": {
 				"selection": "d",
 				"statement": ""
 			}

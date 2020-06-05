@@ -1,13 +1,31 @@
 use std::error::Error;
 use warp::{self, http::StatusCode, path, Filter, Rejection, Reply};
 
+use rand::distributions::Alphanumeric;
+use rand::{thread_rng, Rng};
 use serde::Deserialize;
 use serde::Serialize;
 use std::collections::HashMap;
+use std::fs;
 use std::fs::File;
 use std::io::BufReader;
 use std::io::BufWriter;
-use std::sync::{Arc, Mutex};
+use std::{
+    env,
+    sync::{Arc, Mutex},
+};
+
+#[tokio::main]
+async fn main() {
+    let mut args = env::args();
+    args.next();
+    let token_flag = args.next() == Some("gen-tokens".to_string());
+    if token_flag {
+        gen_tokens(&args.next().expect("expected a base url"));
+    } else {
+        run_server().await;
+    }
+}
 
 const HTML_SAVED: &str = r#"<!DOCTYPE html>
 <html lang="en">
@@ -109,8 +127,44 @@ pub fn as_form(id: u32, thesis: &Thesis, answer: &Answer) -> String {
 }
 
 type DataM = Arc<Mutex<Data>>;
-#[tokio::main]
-async fn main() {
+
+fn gen_tokens(url: &str) {
+    let data: Data = {
+        let file = File::open("data.json").unwrap();
+        let reader = BufReader::new(file);
+        serde_json::from_reader(reader).unwrap()
+    };
+    let tokens = data
+        .lists
+        .into_iter()
+        .map(|(id, list)| {
+            (
+                format!(
+                    "{}{}",
+                    list.name_x.split_whitespace().next().unwrap(),
+                    random_token()
+                ),
+                id,
+            )
+        })
+        .collect::<HashMap<_, _>>();
+
+    let token_file = File::create("tokens.json").unwrap();
+    serde_json::to_writer_pretty(token_file, &tokens).unwrap();
+
+    let urls = tokens
+        .iter()
+        .map(|(token, _id)| format!("{}/{}", url, token))
+        .collect::<Vec<String>>()
+        .join("\n");
+    fs::write("urls.txt", &urls).unwrap();
+}
+
+fn random_token() -> String {
+    thread_rng().sample_iter(&Alphanumeric).take(30).collect()
+}
+
+async fn run_server() {
     let data_raw: Data = {
         let file = File::open("data.json").unwrap();
         let reader = BufReader::new(file);
@@ -133,8 +187,8 @@ async fn main() {
         warp::any().map(move || tokens_clone.clone())
     };
 
-    let extract_token = |name: String, token: String, token_map: TokenMap| {
-        let result = match token_map.get(&(name + &token)) {
+    let extract_token = |token: String, token_map: TokenMap| {
+        let result = match token_map.get(&token) {
             Some(id) => Ok(id.to_string()),
             None => Err(warp::reject()),
         };
@@ -144,7 +198,7 @@ async fn main() {
     type TokenMap = Arc<HashMap<String, String>>;
 
     let form = warp::get()
-        .and(path!(String / String))
+        .and(path!(String))
         .and(with_tokens())
         .and_then(extract_token)
         .and(with_data())
@@ -157,7 +211,7 @@ async fn main() {
         });
 
     let reply = warp::post()
-        .and(path!(String / String))
+        .and(path!(String))
         //.unify()
         .and(with_tokens())
         .and_then(extract_token)
