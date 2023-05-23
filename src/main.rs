@@ -247,10 +247,10 @@ async fn run_server() {
         } else {
             Err(err)
         }
-    };
+    }
 
     warp::serve(reply.or(form.recover(handle_rejection)))
-        .run(([0, 0, 0, 0], 10038))
+        .run(([0, 0, 0, 0], 8080))
         .await;
 }
 

@@ -1,0 +1,470 @@
+{
+  "theses": {
+    "5": {
+      "l": "In den Studierendenwohnheimen gibt es genug Platz, sodass alle Bedürftigen bedient werden können. Das Anmeldeverfahren ist einfach und transparent.",
+      "s": "Wohnheimssituation",
+      "x": ""
+    },
+    "13": {
+      "l": "Die Verfasste Studierendenschaft (VS) sollte in Bayern wieder eingeführt werden. ",
+      "s": "Verfasste Studierendenschaft",
+      "x": "<a target='_blank' rel='noopener noreferrer' href='http://lak-bayern.de/verfasste-studierendenschaft/'>http://lak-bayern.de/verfasste-studierendenschaft</a>"
+    },
+    "0": {
+      "l": "Die Studierendenvertretung (StuV) soll sich weiterhin für ein solidarisches Kulturticket einsetzen, welches mehrere Kulturträger*innen einschließt, z.B. freie Theater, Museen oder Programmkinos.",
+      "s": "Kulturticket",
+      "x": "Aktuell existiert das solidarische “<a target='_blank' rel='noopener noreferrer' href='https://www.studentenwerk-wuerzburg.de/kultur/semesterticket.html'>Semesterticket Mainfrankentheater</a>,” bei dem alle Studis für zwei Euro des Semesterbeitrags kostenlos Veranstaltungen des Mainfrankentheaters besuchen können. Bei dem neuen “<a target='_blank' rel='noopener noreferrer' href='https://www.studentenwerk-wuerzburg.de/kultur/kulturticket-studentenwerk-wuerzburg.html'>Kulturticket freie Theater</a>” handelt es sich um limitierte Ermäßgungstickets, die an der Mensakasse erworben werden können."
+    },
+    "1": {
+      "l": "Digitale Lehre soll auch in Zukunft vermehrten Einzug in den normalen Uni-Alltag erhalten.",
+      "s": "Digitale Lehre",
+      "x": ""
+    },
+    "4": {
+      "l": "Die Uni Würzburg sollte ein Nachhaltigkeitskonzept verabschieden und dies als oberste Priorität bei allen Entscheidungen berücksichtigen.",
+      "s": "Nachhaltigkeitskonzept der Uni Wü",
+      "x": ""
+    },
+    "3": {
+      "l": "Die Löhne für hilfswissenschaftliche Angestellte (HiWi) an der Uni soll auf ein Minimum von 12 € die Stunde angehoben werden.",
+      "s": "HiWi-Löhne",
+      "x": ""
+    },
+    "9": {
+      "l": "Nach Möglichkeit sollten Unisex-Toiletten in Uni-Gebäuden eingerichtet werden.",
+      "s": "Unisex-Toiletten",
+      "x": "In Deutschland können sich Menschen seit Dezember 2018 im Personenstandsregister als “divers” eintragen lassen. Unisex-Toiletten sind für alle Menschen und es gibt sie z.B. schon lange in Zügen und Bussen."
+    },
+    "12": {
+      "l": "Die StuV sollte mehr zur politischen Bildung der Studierenden beitragen.",
+      "s": "Politische Bildung durch StuV",
+      "x": ""
+    },
+    "11": {
+      "l": "Für benachteiligte Studierende sollten mehr Unterstützungsangebote bereitgestellt werden.",
+      "s": "Unterstützungsangebote für benachteiligte Studierende",
+      "x": ""
+    },
+    "2": {
+      "l": "Elternunabhängiges BaFöG sollte für alle Studierende zugänglich gemacht werden.",
+      "s": "Elternunabhängiges BaFöG",
+      "x": ""
+    },
+    "6": {
+      "l": "Die Uni Würzburg braucht mehr englischsprachige Angebote und feste Wohnheimsplätze für ausländische Studierende, um die internationale Attraktivität der Uni zu stärken.",
+      "s": "Internationalisierung",
+      "x": ""
+    },
+    "8": {
+      "l": "Beim Mensaessen sollte der Schwerpunkt auf Nachhaltigkeit (Regionalität/Saisonalität/Produktionsart) liegen statt auf billiger Preise.",
+      "s": "Mensaessen 2",
+      "x": ""
+    },
+    "10": {
+      "l": "Für das Students’ House und den Campusgarten, welche in naher Zukunft abgerissen werden, soll eine mindestens gleichwertige Alternative geschaffen werden.",
+      "s": "Zukunft Students' House und Campusgarten",
+      "x": "https://www.uni-wuerzburg.de/stuv/neuigkeiten/news/die-stuv-im-video/ und https://www.uni-wuerzburg.de/stuv/referat-ak/oekologie/campusgarten/"
+    },
+    "7": {
+      "l": "Das Angebot in den Mensen und Cafeterien ist zufriedenstellend.",
+      "s": "Mensaessen 1",
+      "x": ""
+    }
+  },
+  "lists": {
+    "3": {
+      "name": "Ring Christlich-Demokratischer Studenten Würzburg",
+      "name_x": "RCDS"
+    },
+    "5": {
+      "name": "Liberale Hochschulgruppe Würzburg",
+      "name_x": "LHG"
+    },
+    "0": {
+      "name": "Grüne Hochschulgruppe Würzburg",
+      "name_x": "GHG"
+    },
+    "4": {
+      "name": "Volt Hochschulgruppe Würzburg",
+      "name_x": "Volt"
+    },
+    "2": {
+      "name": "Jungsozialistinnen und Jungsozialisten Würzburg",
+      "name_x": "Jusos"
+    },
+    "1": {
+      "name": "Die LISTE Würzburg",
+      "name_x": "dieLISTE"
+    }
+  },
+  "answers": {
+    "5": {
+      "13": {
+        "selection": "d",
+        "statement": ""
+      },
+      "6": {
+        "selection": "d",
+        "statement": ""
+      },
+      "9": {
+        "selection": "d",
+        "statement": ""
+      },
+      "3": {
+        "selection": "d",
+        "statement": ""
+      },
+      "4": {
+        "selection": "d",
+        "statement": ""
+      },
+      "2": {
+        "selection": "d",
+        "statement": ""
+      },
+      "7": {
+        "selection": "d",
+        "statement": ""
+      },
+      "14": {
+        "selection": "d",
+        "statement": ""
+      },
+      "0": {
+        "selection": "d",
+        "statement": ""
+      },
+      "5": {
+        "selection": "d",
+        "statement": ""
+      },
+      "12": {
+        "selection": "d",
+        "statement": ""
+      },
+      "11": {
+        "selection": "d",
+        "statement": ""
+      },
+      "8": {
+        "selection": "d",
+        "statement": ""
+      },
+      "1": {
+        "selection": "d",
+        "statement": ""
+      },
+      "10": {
+        "selection": "d",
+        "statement": ""
+      }
+    },
+    "0": {
+      "10": {
+        "selection": "d",
+        "statement": ""
+      },
+      "0": {
+        "selection": "d",
+        "statement": ""
+      },
+      "1": {
+        "selection": "d",
+        "statement": ""
+      },
+      "6": {
+        "selection": "d",
+        "statement": ""
+      },
+      "12": {
+        "selection": "d",
+        "statement": ""
+      },
+      "13": {
+        "selection": "d",
+        "statement": ""
+      },
+      "2": {
+        "selection": "d",
+        "statement": ""
+      },
+      "4": {
+        "selection": "d",
+        "statement": ""
+      },
+      "9": {
+        "selection": "d",
+        "statement": ""
+      },
+      "11": {
+        "selection": "d",
+        "statement": ""
+      },
+      "8": {
+        "selection": "d",
+        "statement": ""
+      },
+      "7": {
+        "selection": "d",
+        "statement": ""
+      },
+      "5": {
+        "selection": "d",
+        "statement": ""
+      },
+      "3": {
+        "selection": "d",
+        "statement": ""
+      }
+    },
+    "1": {
+      "7": {
+        "selection": "d",
+        "statement": ""
+      },
+      "10": {
+        "selection": "d",
+        "statement": ""
+      },
+      "6": {
+        "selection": "d",
+        "statement": ""
+      },
+      "12": {
+        "selection": "d",
+        "statement": ""
+      },
+      "9": {
+        "selection": "d",
+        "statement": ""
+      },
+      "5": {
+        "selection": "d",
+        "statement": ""
+      },
+      "14": {
+        "selection": "d",
+        "statement": ""
+      },
+      "4": {
+        "selection": "d",
+        "statement": ""
+      },
+      "8": {
+        "selection": "d",
+        "statement": ""
+      },
+      "1": {
+        "selection": "d",
+        "statement": ""
+      },
+      "0": {
+        "selection": "d",
+        "statement": ""
+      },
+      "2": {
+        "selection": "d",
+        "statement": ""
+      },
+      "3": {
+        "selection": "d",
+        "statement": ""
+      },
+      "13": {
+        "selection": "d",
+        "statement": ""
+      },
+      "11": {
+        "selection": "d",
+        "statement": ""
+      }
+    },
+    "2": {
+      "9": {
+        "selection": "d",
+        "statement": ""
+      },
+      "10": {
+        "selection": "d",
+        "statement": ""
+      },
+      "12": {
+        "selection": "d",
+        "statement": ""
+      },
+      "5": {
+        "selection": "d",
+        "statement": ""
+      },
+      "3": {
+        "selection": "d",
+        "statement": ""
+      },
+      "14": {
+        "selection": "d",
+        "statement": ""
+      },
+      "13": {
+        "selection": "d",
+        "statement": ""
+      },
+      "4": {
+        "selection": "d",
+        "statement": ""
+      },
+      "7": {
+        "selection": "d",
+        "statement": ""
+      },
+      "8": {
+        "selection": "d",
+        "statement": ""
+      },
+      "2": {
+        "selection": "d",
+        "statement": ""
+      },
+      "0": {
+        "selection": "d",
+        "statement": ""
+      },
+      "1": {
+        "selection": "d",
+        "statement": ""
+      },
+      "6": {
+        "selection": "d",
+        "statement": ""
+      },
+      "11": {
+        "selection": "d",
+        "statement": ""
+      }
+    },
+    "3": {
+      "6": {
+        "selection": "d",
+        "statement": ""
+      },
+      "0": {
+        "selection": "d",
+        "statement": ""
+      },
+      "5": {
+        "selection": "d",
+        "statement": ""
+      },
+      "3": {
+        "selection": "d",
+        "statement": ""
+      },
+      "4": {
+        "selection": "d",
+        "statement": ""
+      },
+      "14": {
+        "selection": "d",
+        "statement": ""
+      },
+      "12": {
+        "selection": "d",
+        "statement": ""
+      },
+      "1": {
+        "selection": "d",
+        "statement": ""
+      },
+      "10": {
+        "selection": "d",
+        "statement": ""
+      },
+      "8": {
+        "selection": "d",
+        "statement": ""
+      },
+      "9": {
+        "selection": "d",
+        "statement": ""
+      },
+      "2": {
+        "selection": "d",
+        "statement": ""
+      },
+      "13": {
+        "selection": "d",
+        "statement": ""
+      },
+      "7": {
+        "selection": "d",
+        "statement": ""
+      },
+      "11": {
+        "selection": "d",
+        "statement": ""
+      }
+    },
+    "4": {
+      "2": {
+        "selection": "d",
+        "statement": ""
+      },
+      "3": {
+        "selection": "d",
+        "statement": ""
+      },
+      "11": {
+        "selection": "d",
+        "statement": ""
+      },
+      "4": {
+        "selection": "d",
+        "statement": ""
+      },
+      "5": {
+        "selection": "d",
+        "statement": ""
+      },
+      "1": {
+        "selection": "d",
+        "statement": ""
+      },
+      "8": {
+        "selection": "d",
+        "statement": ""
+      },
+      "7": {
+        "selection": "d",
+        "statement": ""
+      },
+      "0": {
+        "selection": "d",
+        "statement": ""
+      },
+      "14": {
+        "selection": "d",
+        "statement": ""
+      },
+      "13": {
+        "selection": "d",
+        "statement": ""
+      },
+      "9": {
+        "selection": "d",
+        "statement": ""
+      },
+      "12": {
+        "selection": "d",
+        "statement": ""
+      },
+      "10": {
+        "selection": "d",
+        "statement": ""
+      },
+      "6": {
+        "selection": "d",
+        "statement": ""
+      }
+    }
+  }
+}

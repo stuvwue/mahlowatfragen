@@ -1,2 +1,5 @@
 /target
 **/*.rs.bk
+tokens.json
+data.json
+urls.txt
