@@ -45,6 +45,9 @@ impl Default for Answer {
 pub fn read_data() -> Result<Data, DataError> {
         Ok(serde_json::from_str(&fs::read_to_string("data.json")?)?)
 }
+pub fn write_data(data : &Data) -> Result<(), DataError> {
+    Ok(fs::write("data.json", serde_json::to_string_pretty(data)?)?)
+}
 
 #[derive(Debug, Error)]
 pub enum DataError{
